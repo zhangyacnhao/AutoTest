@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- 
+	LoongAT Main xml file
+	Usage: Add a module as child item of data
+		   common item is some read-only information to show test env
+-->
+<config>
+    <modulename type="string" tagname="LOONGSON Auto-test Tool">loongat</modulename>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0S</exectime>
+    </common>
+    <data>
+        <module type="string">90-BenchMark</module>
+    </data>
+</config>

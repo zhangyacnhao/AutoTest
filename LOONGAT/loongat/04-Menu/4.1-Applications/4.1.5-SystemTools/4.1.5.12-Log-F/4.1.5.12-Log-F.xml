@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+    <modulename type="string" tagname="Internet Test">4.1.2-Internet</modulename>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0S</exectime>
+        <!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+        <case type="string">4.1.2.1-Chrome39</case>
+        <case type="string">4.1.2.2-Claws-Mail</case>
+        <case type="string">4.1.2.3-Empathy</case>
+        <case type="string">4.1.2.4-FileZilla</case>
+        <case type="string">4.1.2.5-Firefox-F</case>
+        <case type="string">4.1.2.6-HexChat</case>
+    </data>
+</config>

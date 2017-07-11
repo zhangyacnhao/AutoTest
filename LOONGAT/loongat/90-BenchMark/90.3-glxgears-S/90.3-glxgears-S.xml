@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	glxgears 压力测试程序XML 
+	common 信息项:描述类信息项目 具体信息参见case对应的result目录中的log文件
+	data 信息项: 用于控制 glxgears工具的运行参数等等
+	glxgears 的运行方式: vblank_mode=0 glxgears 运行一段时间后，连续N行的平均值。
+-->
+<config tagname = "配置">
+	<common>
+		<os type = "string" tagname = "操作系统名称">Fedora21-0815</os>
+		<board type = "string" tagname="BoardInfo">Loongson-3A-780E-1w</board>
+		<kernel_date type = "string" tagname="kernel 日期">Aug-15-14:04:39-CST-2015</kernel_date>
+	</common>
+	<data>
+		<!--控制压力测试时，运行时间 H:hour M:minute S:second -->
+		<duration type = "string" tagname = "glxgears 运行时长">40S</duration>
+		<!--在测试结果抽取的行数(用于计算平均值)-->	
+		<cntRow type = "int" tagname = "从测试结果中抽取的行数">8</cntRow>
+		<begRow type = "int" tagname = "开始抽取的行号">2</begRow>
+	</data>
+</config>

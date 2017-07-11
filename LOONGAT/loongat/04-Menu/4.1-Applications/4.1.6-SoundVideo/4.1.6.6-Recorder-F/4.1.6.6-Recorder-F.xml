@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0S</exectime>
+	  <os type="string" tagname="系统名称">Fedora13</os>
+	  <RecorderVer type="int" tagname="Recorder">0.14.4</RecorderVer>
+        <!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+        <times type="int" tagname="case run times">1</times>
+    </data>
+</config>

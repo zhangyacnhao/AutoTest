@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	pluma 测试程序XML 
+	common 信息项:描述类信息项目
+	data 信息项: 用于控制程序运行次数等等
+-->
+<config tagname = "配置">
+	<common>
+		<os type = "string" tagname = "操作系统名称">Fedora21-0815</os>
+		<board type = "string" tagname="BoardInfo">Loongson-3A-780E-1w</board>
+		<kernel_date type = "string" tagname="kernel 日期">Aug-15-14:04:39-CST-2015</kernel_date>
+	</common>
+	<data>
+		<count type = "int" tagname = "控制测试循环测试">1</count>
+	</data>
+</config>

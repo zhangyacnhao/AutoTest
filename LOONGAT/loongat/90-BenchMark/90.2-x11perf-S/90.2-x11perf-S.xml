@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	x11perf 压力测试程序XML 
+	common 信息项:描述类信息项目
+	data 信息项: 用于控制 x11perf 工具的运行参数等等
+	x11perf 有两种运行方式：(1)benchmark 方式的运行方式 x11perf -all （2）stress 制定X11perf 运行时间 tstTime 用来制定 每个测试 项目时长
+						  repTime 用来控制整体测试重复次数
+-->
+<config tagname = "配置">
+	<common>
+		<os type = "string" tagname = "操作系统名称">Fedora21-0815</os>
+		<board type = "string" tagname="BoardInfo">Loongson-3A-780E-1w</board>
+		<kernel_date type = "string" tagname="kernel 日期">Aug-15-14:04:39-CST-2015</kernel_date>
+	</common>
+	<data>
+		<!--控制压力测试时，运行时间 H:hour M:minute S:second -->
+		<!--每一项测试运行多长时间  主要用于x11perf 的time 参数-->
+		<tstTime type = "string" tagname = "time for each test item">5S</tstTime>
+		<!--整体重复测试次数-->
+		<repTime type = "int" tagname = "repeat time fore ">1</repTime>
+		
+	</data>
+</config>

@@ -1,0 +1,64 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+function ldtpEnv()
+{
+	[ ! $(gsettings get org.mate.interface accessibility) ] && {
+		echo "setting org.mate.interface."
+		gsettings set org.mate.interface accessibility true
+	}
+
+	[ ! $(gsettings get org.gnome.desktop.a11y always-show-universal-access-status) ] && {
+		echo "setting org.gnome.desktop.a11y."
+		gsettings set org.gnome.desktop.a11y always-show-universal-access-status true
+	}
+	
+	[ ! $(gsettings get org.cinnamon.desktop.interface  toolkit-accessibility) ] && {
+		echo "setting org.cinnamon.desktop.interface "
+		gsettings set org.cinnamon.desktop.interface  toolkit-accessibility true
+	}
+	
+	[ ! $(gsettings get org.mate.accessibility-keyboard  enable) ] && {
+		echo "setting org.mate.accessibility-keyboard."
+		gsettings set org.mate.accessibility-keyboard  enable true
+	}
+	
+	[ ! $(gsettings get org.mate.applications-at-mobility startup) ] && {
+		echo "setting org.mate.applications-at-mobility."
+		gsettings set org.mate.applications-at-mobility startup true
+	}
+	
+	[ -z $(gsettings get org.mate.applications-at-mobility exec) ] && {
+		echo "setting dasher."
+		gsettings set org.mate.applications-at-mobility exec 'dasher'
+	}
+	
+	[ ! $(gsettings get org.mate.accessibility-keyboard stickykeys-two-key-off) ] && {
+		echo "setting stickykeys-two-key-off."
+		gsettings set org.mate.accessibility-keyboard stickykeys-two-key-off true
+	}
+
+	[ ! $(gsettings get org.gnome.desktop.interface toolkit-accessibility) ] && {
+		echo "setting org.gnome.desktop.interface."
+		gsettings set org.gnome.desktop.interface toolkit-accessibility true
+    }
+
+	gconftool-2 --set /desktop/gnome/interface/at-spi-dbus --type bool true
+	gconftool-2 --set /desktop/gnome/interface/at-spi-corba --type bool false
+	export GTK_MODULES=gail::atk-bridge
+	export QT_ACCESSIBILITY=1
+	
+}
+
+
+[ -f /usr/bin/ldtp ] && ldtpEnv 	
+
+#export GTK2_RC_FILES="$HMOE/.gtkrc-2.0"

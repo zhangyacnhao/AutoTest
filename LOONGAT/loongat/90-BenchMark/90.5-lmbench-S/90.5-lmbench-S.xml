@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	lmbench 压力测试程序XML 
+	common 信息项:描述类信息项目 具体信息参见case对应的result目录中的log文件
+	data 信息项: 用于控制 lmbench 工具的运行参数等等
+-->
+<config tagname = "配置">
+	<common>
+		<os type = "string" tagname = "操作系统名称">Fedora21-0815</os>
+		<board type = "string" tagname="BoardInfo">Loongson-3A-780E-1w</board>
+		<kernel_date type = "string" tagname="kernel 日期">Aug-15-14:04:39-CST-2015</kernel_date>
+	</common>
+	<data>
+		<!--用来控制lmbench 的测试次数 默认情况下时1次-->
+		<count type = "int" tagname = "运行次数">1</count>
+	</data>
+</config>

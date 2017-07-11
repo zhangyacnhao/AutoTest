@@ -1,0 +1,9 @@
+ <?xml version="1.0" encoding="GBK"?>
+<Catalog name = "树形目录">
+        <View id = "default">123
+    </View>
+        <View id = "1">456
+    </View>
+        <View id = "2">789
+        </View>
+</Catalog>

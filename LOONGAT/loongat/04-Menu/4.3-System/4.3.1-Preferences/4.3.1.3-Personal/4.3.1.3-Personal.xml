@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+    <modulename type="string" tagname="Office Test">4.3.1.3-Personal</modulename>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0S</exectime>
+        <!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+		<case type ="string" tag="4.1.1-syntime">4.1.1.1-xrandr_resolution</case>
+    </data>
+</config>

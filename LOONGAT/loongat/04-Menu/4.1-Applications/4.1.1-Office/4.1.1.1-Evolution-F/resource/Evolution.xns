@@ -1,0 +1,334 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2000:02:07 
+# Time:                   15:49:16 
+# Xnee program:           cnee 
+# Xnee version:           3.13 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               Fedora Project 
+# X vendor release:       11101000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             2.6.32-14.9.30.loongson3 
+# OS Version:             #10 SMP Tue Sep 30 15:58:59 CST 2014 
+# Machine:                mips64 
+# Nodename:               localhost.localdomain 
+# Display name:           :0.0
+# Dimension:              1440x900
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --keyboard --mouse -o Evolution.xns -sk 0 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0.0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file Evolution.xns
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         0
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        -1
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1440x900
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 0
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x44da38
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            2-6 
+error-range                   6-6 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            78-83 
+error-range                   0-0 
+7,2,0,0,0,64,0,2661808,6,  USB Keyboard
+0,2,0,0,0,64,0,2661808
+6,2,0,0,0,64,0,2661808,3,Virtual core keyboard
+7,2,0,0,0,67,0,2662032,6,  USB Keyboard
+0,2,0,0,0,67,0,2662032
+6,2,0,0,0,67,0,2662032,3,Virtual core keyboard
+7,3,0,0,0,67,0,2662272,6,  USB Keyboard
+0,3,0,0,0,67,0,2662272
+6,3,0,0,0,67,0,2662272,3,Virtual core keyboard
+7,3,0,0,0,64,0,2662312,6,  USB Keyboard
+0,3,0,0,0,64,0,2662312
+6,3,0,0,0,64,0,2662312,3,Virtual core keyboard
+7,2,0,0,0,111,0,2662576,6,  USB Keyboard
+0,2,0,0,0,111,0,2662576
+6,2,0,0,0,111,0,2662576,3,Virtual core keyboard
+7,3,0,0,0,111,0,2662672,6,  USB Keyboard
+0,3,0,0,0,111,0,2662672
+6,3,0,0,0,111,0,2662672,3,Virtual core keyboard
+7,2,0,0,0,111,0,2662768,6,  USB Keyboard
+0,2,0,0,0,111,0,2662768
+6,2,0,0,0,111,0,2662768,3,Virtual core keyboard
+7,3,0,0,0,111,0,2662888,6,  USB Keyboard
+0,3,0,0,0,111,0,2662888
+6,3,0,0,0,111,0,2662888,3,Virtual core keyboard
+7,2,0,0,0,111,0,2662976,6,  USB Keyboard
+0,2,0,0,0,111,0,2662976
+6,2,0,0,0,111,0,2662976,3,Virtual core keyboard
+7,3,0,0,0,111,0,2663104,6,  USB Keyboard
+0,3,0,0,0,111,0,2663104
+6,3,0,0,0,111,0,2663104,3,Virtual core keyboard
+7,2,0,0,0,111,0,2663240,6,  USB Keyboard
+0,2,0,0,0,111,0,2663240
+6,2,0,0,0,111,0,2663240,3,Virtual core keyboard
+7,3,0,0,0,111,0,2663376,6,  USB Keyboard
+0,3,0,0,0,111,0,2663376
+6,3,0,0,0,111,0,2663376,3,Virtual core keyboard
+7,2,0,0,0,111,0,2663512,6,  USB Keyboard
+0,2,0,0,0,111,0,2663512
+6,2,0,0,0,111,0,2663512,3,Virtual core keyboard
+7,3,0,0,0,111,0,2663664,6,  USB Keyboard
+0,3,0,0,0,111,0,2663664
+6,3,0,0,0,111,0,2663664,3,Virtual core keyboard
+7,2,0,0,0,116,0,2664168,6,  USB Keyboard
+0,2,0,0,0,116,0,2664168
+6,2,0,0,0,116,0,2664168,3,Virtual core keyboard
+7,3,0,0,0,116,0,2664336,6,  USB Keyboard
+0,3,0,0,0,116,0,2664336
+6,3,0,0,0,116,0,2664336,3,Virtual core keyboard
+7,2,0,0,0,116,0,2664632,6,  USB Keyboard
+0,2,0,0,0,116,0,2664632
+6,2,0,0,0,116,0,2664632,3,Virtual core keyboard
+7,3,0,0,0,116,0,2664784,6,  USB Keyboard
+0,3,0,0,0,116,0,2664784
+6,3,0,0,0,116,0,2664784,3,Virtual core keyboard
+7,2,0,0,0,114,0,2664928,6,  USB Keyboard
+0,2,0,0,0,114,0,2664928
+6,2,0,0,0,114,0,2664928,3,Virtual core keyboard
+7,3,0,0,0,114,0,2665096,6,  USB Keyboard
+0,3,0,0,0,114,0,2665096
+6,3,0,0,0,114,0,2665096,3,Virtual core keyboard
+7,2,0,0,0,113,0,2665736,6,  USB Keyboard
+0,2,0,0,0,113,0,2665736
+6,2,0,0,0,113,0,2665736,3,Virtual core keyboard
+7,3,0,0,0,113,0,2665896,6,  USB Keyboard
+0,3,0,0,0,113,0,2665896
+6,3,0,0,0,113,0,2665896,3,Virtual core keyboard
+7,2,0,0,0,113,0,2666064,6,  USB Keyboard
+0,2,0,0,0,113,0,2666064
+6,2,0,0,0,113,0,2666064,3,Virtual core keyboard
+7,3,0,0,0,113,0,2666208,6,  USB Keyboard
+0,3,0,0,0,113,0,2666208
+6,3,0,0,0,113,0,2666208,3,Virtual core keyboard
+7,2,0,0,0,113,0,2667040,6,  USB Keyboard
+0,2,0,0,0,113,0,2667040
+6,2,0,0,0,113,0,2667040,3,Virtual core keyboard
+7,3,0,0,0,113,0,2667144,6,  USB Keyboard
+0,3,0,0,0,113,0,2667144
+6,3,0,0,0,113,0,2667144,3,Virtual core keyboard
+7,2,0,0,0,113,0,2667256,6,  USB Keyboard
+0,2,0,0,0,113,0,2667256
+6,2,0,0,0,113,0,2667256,3,Virtual core keyboard
+7,3,0,0,0,113,0,2667384,6,  USB Keyboard
+0,3,0,0,0,113,0,2667384
+6,3,0,0,0,113,0,2667384,3,Virtual core keyboard
+7,2,0,0,0,111,0,2667744,6,  USB Keyboard
+0,2,0,0,0,111,0,2667744
+6,2,0,0,0,111,0,2667744,3,Virtual core keyboard
+7,3,0,0,0,111,0,2667904,6,  USB Keyboard
+0,3,0,0,0,111,0,2667904
+6,3,0,0,0,111,0,2667904,3,Virtual core keyboard
+7,2,0,0,0,111,0,2668312,6,  USB Keyboard
+0,2,0,0,0,111,0,2668312
+6,2,0,0,0,111,0,2668312,3,Virtual core keyboard
+7,3,0,0,0,111,0,2668400,6,  USB Keyboard
+0,3,0,0,0,111,0,2668400
+6,3,0,0,0,111,0,2668400,3,Virtual core keyboard
+7,2,0,0,0,111,0,2668488,6,  USB Keyboard
+0,2,0,0,0,111,0,2668488
+6,2,0,0,0,111,0,2668488,3,Virtual core keyboard
+7,3,0,0,0,111,0,2668576,6,  USB Keyboard
+0,3,0,0,0,111,0,2668576
+6,3,0,0,0,111,0,2668576,3,Virtual core keyboard
+7,2,0,0,0,111,0,2668679,6,  USB Keyboard
+0,2,0,0,0,111,0,2668680
+6,2,0,0,0,111,0,2668680,3,Virtual core keyboard
+7,3,0,0,0,111,0,2668784,6,  USB Keyboard
+0,3,0,0,0,111,0,2668784
+6,3,0,0,0,111,0,2668784,3,Virtual core keyboard
+7,2,0,0,0,111,0,2668887,6,  USB Keyboard
+0,2,0,0,0,111,0,2668888
+6,2,0,0,0,111,0,2668888,3,Virtual core keyboard
+7,3,0,0,0,111,0,2668992,6,  USB Keyboard
+0,3,0,0,0,111,0,2668992
+6,3,0,0,0,111,0,2668992,3,Virtual core keyboard
+7,2,0,0,0,116,0,2669280,6,  USB Keyboard
+0,2,0,0,0,116,0,2669280
+6,2,0,0,0,116,0,2669280,3,Virtual core keyboard
+7,3,0,0,0,116,0,2669399,6,  USB Keyboard
+0,3,0,0,0,116,0,2669399
+6,3,0,0,0,116,0,2669399,3,Virtual core keyboard
+7,2,0,0,0,114,0,2669479,6,  USB Keyboard
+0,2,0,0,0,114,0,2669480
+6,2,0,0,0,114,0,2669480,3,Virtual core keyboard
+7,3,0,0,0,114,0,2669623,6,  USB Keyboard
+0,3,0,0,0,114,0,2669623
+6,3,0,0,0,114,0,2669623,3,Virtual core keyboard
+7,2,0,0,0,116,0,2669927,6,  USB Keyboard
+0,2,0,0,0,116,0,2669928
+6,2,0,0,0,116,0,2669928,3,Virtual core keyboard
+7,3,0,0,0,116,0,2670031,6,  USB Keyboard
+0,3,0,0,0,116,0,2670031
+6,3,0,0,0,116,0,2670031,3,Virtual core keyboard
+7,2,0,0,0,36,0,2670447,6,  USB Keyboard
+0,2,0,0,0,36,0,2670448
+6,2,0,0,0,36,0,2670448,3,Virtual core keyboard
+7,3,0,0,0,36,0,2670540,6,  USB Keyboard
+0,3,0,0,0,36,0,2670540
+6,3,0,0,0,36,0,2670540,3,Virtual core keyboard
+7,2,0,0,0,64,0,2682439,6,  USB Keyboard
+0,2,0,0,0,64,0,2682439
+6,2,0,0,0,64,0,2682439,3,Virtual core keyboard
+7,2,0,0,0,67,0,2682943,6,  USB Keyboard
+0,2,0,0,0,67,0,2682943
+6,2,0,0,0,67,0,2682943,3,Virtual core keyboard
+7,3,0,0,0,67,0,2683127,6,  USB Keyboard
+0,3,0,0,0,67,0,2683127
+6,3,0,0,0,67,0,2683127,3,Virtual core keyboard
+7,3,0,0,0,64,0,2683311,6,  USB Keyboard
+0,3,0,0,0,64,0,2683311
+6,3,0,0,0,64,0,2683311,3,Virtual core keyboard
+7,2,0,0,0,9,0,2684575,6,  USB Keyboard
+0,2,0,0,0,9,0,2684575
+6,2,0,0,0,9,0,2684575,3,Virtual core keyboard
+7,3,0,0,0,9,0,2684775,6,  USB Keyboard
+0,3,0,0,0,9,0,2684775
+6,3,0,0,0,9,0,2684775,3,Virtual core keyboard
+7,2,0,0,0,133,0,2685735,6,  USB Keyboard
+0,2,0,0,0,133,0,2685735
+6,2,0,0,0,133,0,2685735,3,Virtual core keyboard
+7,3,0,0,0,133,0,2686327,6,  USB Keyboard
+0,3,0,0,0,133,0,2686327
+6,3,0,0,0,133,0,2686327,3,Virtual core keyboard
+7,2,0,0,0,64,0,2687023,6,  USB Keyboard
+0,2,0,0,0,64,0,2687023
+6,2,0,0,0,64,0,2687023,3,Virtual core keyboard
+7,2,0,0,0,70,0,2687487,6,  USB Keyboard
+0,2,0,0,0,70,0,2687487
+6,2,0,0,0,70,0,2687487,3,Virtual core keyboard
+7,3,0,0,0,64,0,2687719,6,  USB Keyboard
+0,3,0,0,0,64,0,2687719
+6,3,0,0,0,64,0,2687719,3,Virtual core keyboard
+7,3,0,0,0,70,0,2687719,6,  USB Keyboard
+0,3,0,0,0,70,0,2687719
+6,3,0,0,0,70,0,2687719,3,Virtual core keyboard
